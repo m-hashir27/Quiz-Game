@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz Game</a>
+            <nav class="nav">
+                <a href="#home" class="nav-link focus">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Hashir's Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website Tutorials</span>
+                        <span class="header-score">Score: 0/5</span>
+                    </div>
+
+                    <h2 class="question-text">What does HTML stand for?</h2>
+
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A. HyperText Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. HighText Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyperlinks and Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. None of the above</span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">Question 1 of 5</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Game Website</h1>
+                    <p>Test your knowledge with our fun and interactive quiz game! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, quo totam vitae ab officiis porro iste placeat voluptates asperiores similique.</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info active">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Choose the correct answer from the options provided.</span>
+        <span class="info">2. You have a limited time to answer each question.</span>
+        <span class="info">3. Your score will be displayed at the end of the quiz.</span>
+        <span class="info">4. Good luck and have fun!</span>
+        <span class="info">5. Click on the "Continue" button to begin.</span>
+
+        <div class="btn-group">
+            <button class="close-btn info-btn">Close</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
