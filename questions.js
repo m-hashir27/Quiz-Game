@@ -38,7 +38,7 @@ let questions = [
         answer:"B. Document Object Model",
         options:[
             "A. Document Orientation Model",
-            "B. Document Object Model ",
+            "B. Document Object Model",
             "C. Document Object Module",
             "D. None of the above"
         ]
@@ -50,7 +50,7 @@ let questions = [
         options:[
             "A. Application Programming Interfacing",
             "B. Application Program Interface",
-            "C. Application Programming Interface ",
+            "C. Application Programming Interface",
             "D. None of the above"
         ]
     }
