@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     color: #fff;
     background-color: #09001d;
     overflow: hidden;
@@ -58,12 +58,12 @@ body{
     pointer-events: auto;
 }
 
-.main.active{
+.main.active {
     filter: blur(15px);
     pointer-events: none;
 }
 
-.container{
+.container {
     display: flex;
     height: 100vh;
     width: 200%;
@@ -87,12 +87,14 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.home-content h1{
+
+.home-content h1 {
     font-size: 78px;
     font-weight: 700;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.home-content p{
+
+.home-content p {
     font-size: 16px;
     width: 50%;
     text-align: center;
@@ -100,7 +102,8 @@ body{
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-bottom: 30px;
 }
-.home-content .start-btn{
+
+.home-content .start-btn {
     width: 200px;
     height: 55px;
     background-color: #c40094;
@@ -115,12 +118,13 @@ body{
     cursor: pointer;
     transition: .3s;
 }
-.home-content .start-btn:hover{
+
+.home-content .start-btn:hover {
     background-color: #09001d;
     box-shadow: none;
 }
 
-.popup-info{
+.popup-info {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -134,18 +138,18 @@ body{
     transition: .3s ease;
 }
 
-.popup-info.active{
+.popup-info.active {
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
 }
 
-.popup-info h2{
+.popup-info h2 {
     font-size: 50px;
     color: #c40094;
 }
 
-.popup-info .info{
+.popup-info .info {
     font-size: 16px;
     display: inline-block;
     color: #333;
@@ -162,7 +166,7 @@ body{
     padding: 15px 0 7px;
 }
 
-.popup-info .btn-group .info-btn{
+.popup-info .btn-group .info-btn {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -181,22 +185,22 @@ body{
     transition: .5s;
 }
 
-.popup-info .btn-group .info-btn:nth-child(1){
+.popup-info .btn-group .info-btn:nth-child(1) {
     background-color: transparent;
     color: #c40094;
 }
 
-.popup-info .btn-group .info-btn:nth-child(1):hover{
+.popup-info .btn-group .info-btn:nth-child(1):hover {
     background-color: #c40094;
     color: #ffffff;
 }
 
-.popup-info .btn-group .info-btn:nth-child(2):hover{
+.popup-info .btn-group .info-btn:nth-child(2):hover {
     background-color: #950170;
     border-color: #950170;
 }
 
-.quiz-section{
+.quiz-section {
     position: relative;
     left: -50%;
     /* left: 0; */
@@ -210,7 +214,7 @@ body{
     align-items: center;
 }
 
-.quiz-section.active{
+.quiz-section.active {
     left: 0;
 }
 
@@ -238,14 +242,14 @@ body{
     transition-delay: 1s;
 }
 
-.quiz-box h1{
+.quiz-box h1 {
     font-size: 30px;
     text-align: center;
     background: linear-gradient(45deg, transparent, #c40094, transparent);
     border-radius: 6px;
 }
 
-.quiz-box .quiz-header{
+.quiz-box .quiz-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -254,12 +258,12 @@ body{
     margin-bottom: 20px;
 }
 
-.quiz-header span{
+.quiz-header span {
     font-size: 20px;
     font-weight: 500;
 }
 
-.quiz-header .header-score{
+.quiz-header .header-score {
     background-color: #c40094;
     padding: 7px;
     border-radius: 3px;
@@ -270,7 +274,7 @@ body{
     font-weight: 600;
 }
 
-.option-list .option{
+.option-list .option {
     width: 100%;
     background: transparent;
     padding: 12px;
@@ -282,27 +286,28 @@ body{
     transition: .3s;
 }
 
-.option-list .option.correct{
+.option-list .option.correct {
     background: #09001d;
     color: #00a63d;
     border-color: #00a63d;
 }
-.option-list .option.incorrect{
+
+.option-list .option.incorrect {
     background: #09001d;
     color: #a60045;
     border-color: #a60045;
 }
 
-.option-list .option.disabled{
+.option-list .option.disabled {
     pointer-events: none;
 }
 
-.option-list .option:hover{
+.option-list .option:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.1);
 }
 
-.quiz-box .quiz-footer{
+.quiz-box .quiz-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -311,12 +316,12 @@ body{
     margin-top: 30px;
 }
 
-.quiz-footer .question-total{
+.quiz-footer .question-total {
     font-size: 18px;
     font-weight: 500;
 }
 
-.quiz-footer .next-btn{
+.quiz-footer .next-btn {
     width: 150px;
     height: 45px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -332,18 +337,19 @@ body{
 }
 
 
-.quiz-footer .next-btn.active{
+.quiz-footer .next-btn.active {
     pointer-events: auto;
     background-color: #c40094;
     border-color: #c40094;
     color: #fff;
 }
-.quiz-footer .next-btn.active:hover{
+
+.quiz-footer .next-btn.active:hover {
     background-color: #950170;
     border-color: #950170;
 }
 
-.quiz-section .result-box{
+.quiz-section .result-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -361,17 +367,17 @@ body{
     transition: .3s ease;
 }
 
-.quiz-section .result-box.active{
+.quiz-section .result-box.active {
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
 }
 
-.result-box h2{
+.result-box h2 {
     font-size: 52px;
 }
 
-.result-box .percentage-container{
+.result-box .percentage-container {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -389,7 +395,7 @@ body{
     align-items: center;
 }
 
-.percentage-container .circular-progress::before{
+.percentage-container .circular-progress::before {
     content: '';
     position: absolute;
     width: 210px;
@@ -398,23 +404,23 @@ body{
     background: #09001d;
 }
 
-.circular-progress .progress-value{
+.circular-progress .progress-value {
     font-size: 45px;
     font-weight: 600;
     position: relative;
 }
 
-.percentage-container .score-text{
+.percentage-container .score-text {
     font-size: 26px;
     font-weight: 600;
     margin-top: 20px;
 }
 
-.result-box .buttons{
+.result-box .buttons {
     display: flex;
 }
 
-.buttons button{
+.buttons button {
     width: 130px;
     height: 47px;
     background-color: #c40094;
@@ -429,17 +435,24 @@ body{
     transition: .3s;
 }
 
-.buttons button:nth-child(1):hover{
+.buttons button:nth-child(1):hover {
     background-color: #950170;
     border-color: #950170;
 }
 
-.buttons button:nth-child(2){
+.buttons button:nth-child(2) {
     background: transparent;
     color: #c40094;
 }
 
-.buttons button:nth-child(2):hover{
+.buttons button:nth-child(2):hover {
     background-color: #c40094;
     color: #fff;
+}
+
+@media (max-width:900px) {
+    .home-content h1 {
+        font-size: 78px;
+        text-align: center;
+    }
 }
